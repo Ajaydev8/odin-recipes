@@ -1,5 +1,16 @@
 h1 {
-    color: burlywood;
-    text-align: center;
+    color: #e5eaf5;
     background-color: rgb(93, 95, 177);
+    text-align: center;
+}
+
+a {
+    font-size: 24px;
+}
+
+#tea-punch,
+#chapati,
+#pizza {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #edf756;
 }
