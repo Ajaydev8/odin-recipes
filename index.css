@@ -12,7 +12,6 @@ a {
     font-size: 24px;
     border: 2px solid black;
     padding: 8px;
-    display: inline-block;
 }
 
 #tea-punch,
@@ -21,6 +20,22 @@ a {
     font-family: 'Courier New', Courier, monospace;
     background-color: #edf756;
     vertical-align: auto;
+}
+
+.tea-punch-image {
+    height: auto;
+    width: 50px;
+    margin: 10px;
+    border: 2px solid blueviolet;
+}
+
+.container {
+    display: inline-flex;
+    align-items: center;
+    margin-right: -50px;
+    border: 2px solid orange;
+    background-color: #DC143C;
+    padding-left: 10px;
 }
 
 
