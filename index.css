@@ -22,20 +22,24 @@ a {
     vertical-align: auto;
 }
 
-.tea-punch-image {
+.tea-punch-image, .chapati-image, .pizza-image {
     height: auto;
     width: 50px;
     margin: 10px;
     border: 2px solid blueviolet;
 }
 
-.container {
+.container, .container-2, .container-3 {
     display: inline-flex;
     align-items: center;
     margin-right: -50px;
     border: 2px solid orange;
     background-color: #DC143C;
     padding-left: 10px;
+}
+
+.container-2 {
+    padding: 10px 10px;
 }
 
 
