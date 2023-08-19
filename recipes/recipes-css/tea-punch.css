@@ -1,7 +1,19 @@
+* {
+    background-color: #E0E6F2;
+}
+
+img {
+    height: auto;
+    width: 500px;
+    border: 2px solid #a28089;
+}
+
 h1 {
     background-color: #a28089;
     color: #fff685;
     font-family: 'Courier New', Courier, monospace;
+    width: 505px;
+    margin-bottom: 0px;
 }
 
 h2 {
@@ -21,4 +33,10 @@ h3 {
 
 .list {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container-1 {
+    border: 5px solid #f071db;
+    display: inline-block;
+    padding-top: -5px;
 }
