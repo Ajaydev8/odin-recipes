@@ -1,10 +1,10 @@
 * {
-    background-color: #E0E6F2;
+    background-color: #f78a24;
 }
 
 img {
     height: auto;
-    width: 500px;
+    width: 400px;
     border: 2px solid #a28089;
 }
 
@@ -12,13 +12,15 @@ h1 {
     background-color: #a28089;
     color: #fff685;
     font-family: 'Courier New', Courier, monospace;
-    width: 505px;
+    width: 405px;
     margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 h2 {
     background-color: #ffb766;
     color: #657a00;
+    width: 500px;
 }
 
 h3 {
@@ -29,14 +31,69 @@ h3 {
 .description {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+    width: 405px;
+    color: #4a5326;
+    background-color: #a28089;
+    margin-top: -6px;
+    margin-bottom: 0px;
+}
+
+strong {
+    background-color: #a28089;
 }
 
 .list {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 500px;
+    
 }
 
 .container-1 {
-    border: 5px solid #f071db;
     display: inline-block;
-    padding-top: -5px;
+}
+.container-2 {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: rgb(236, 236, 106);
+    border: 2px solid rgb(255, 166, 0);
+
+}
+
+.container-3 {
+    display: inline-block;
+    margin-top: 225px;
+    margin-left: -500px;
+    width: 500px;
+    border: 2px solid rgb(240, 80, 255);
+    background-color: palevioletred;
+}
+
+.container {
+    display: flex;
+    align-items: start;
+    border: 2px solid orangered;
+    margin-left: 150px;
+    padding-left: 30px;
+    background-color: rgb(228, 139, 107);
+    margin-right: 150px;
+}
+
+ol {
+    background-color: palevioletred;
+}
+
+ul {
+    background-color: rgb(236, 236, 106);
+}
+
+.steps {
+    background-color: palevioletred;
+    color: rgb(83, 5, 16);
+}
+
+#ingredients {
+    background-color: rgb(235, 235, 138);
+    color: rgb(185, 124, 9);
+    
 }
